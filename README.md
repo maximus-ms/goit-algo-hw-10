@@ -53,6 +53,21 @@ Module ```PuLP``` is a great tool to solve tasks with linear dependencies.
 
 ## Task 2. Definite Integral Computation
 Calculate the value of the integral of the function using the Monte Carlo method, in other words, find the area under this graph.
+
 Verify the accuracy of the calculations to confirm the precision of the Monte Carlo method by comparing the obtained result with analytical calculations or the result of executing the quad function. Write conclusions.
 
 *N.P. You can choose any function.*
+
+### Solution
+Let's define a function $y = x^2 + 1$
+
+So, our graph is
+![f(x) = x^2 + 1  [0..2]](./Figure_1.png)
+
+And we have results from an analytical method ```quad``` from ```SciPy``` module and from the Monte Carlo method:
+```
+SciPy quad calculation:  4.666666666666667
+Monte Carlo calculation: 4.6701999999999995
+```
+### Conclusions
+As we can see the Monte Carlo method is quite accurate and can be used for some complicated functions.
