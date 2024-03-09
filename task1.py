@@ -15,3 +15,4 @@ model.solve()
 
 print('Production of "Lemonade":', L.varValue)
 print('Production of "Fruit Juice":', F.varValue)
+print('Total production :', L.varValue + F.varValue)
