@@ -64,10 +64,10 @@ Let's define a function $y = x^2 + 1$
 So, our graph is
 ![f(x) = x^2 + 1  [0..2]](./Figure_1.png)
 
-And we have results from an analytical method ```quad``` from ```SciPy``` module and from the Monte Carlo method:
+And we have results from function ```quad``` from ```SciPy``` module and from the Monte Carlo method:
 ```
 SciPy quad calculation:  4.666666666666667
-Monte Carlo calculation: 4.6701999999999995
+Monte Carlo calculation: 4.699999999999999
 ```
 ### Conclusions
-As we can see the Monte Carlo method is quite accurate and can be used for some complicated functions.
+As we can see the Monte Carlo method is quite accurate and can be used for some complicated functions. We have to remember than an accuracy of Monte Carlo method is very depend on number of points and number of iterations (calculations). It is very important to note that we have to use linear distribution for random points generation.
